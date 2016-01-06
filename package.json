@@ -1,0 +1,24 @@
+{
+  "name": "generator-hello",
+  "version": "1.0.0",
+  "description": "Dead simple Yeoman Generator",
+  "files": [
+    "generators/app"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000"
+  },
+  "author": "Stavros Kounis",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^0.22.2",
+    "lodash": "~3.10"
+  },
+  "devDependencies": {
+    "lodash": "^3.10.1",
+    "mocha": "^2.1.0",
+    "yeoman-assert": "^2.1.1",
+    "yeoman-test": "^1.0.0"
+  }
+}
